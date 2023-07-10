@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap');
+body{
+    background-color:black;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family: 'Ubuntu', sans-serif;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 70px;
+    background: black;
+    color:white;
+}
+nav ul li{
+    padding: 12px;
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.brand img{
+    width: 140px;
+    padding: 0 8px;
+    
+}
+nav ul li  a:link,
+nav ul li  a:visited,
+nav ul li  a:hover,
+nav ul li  a:active{
+color:#ffffff;
+    
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+.container{
+    min-height: 75vh;
+    background-color: black;
+    color: black;
+   display:flex;
+   border-radius: 12px;
+   padding: 34px;
+   width:70%;
+   margin:23px auto;
+   background-image: url(badshah.png);
+   opacity: 80%;
+}
+.bottom{
+    position: sticky;
+    height: 100px;
+    background-color: black;
+    color:white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.icons{
+    margin-top: 14px;
+}
+.icons i{
+    cursor: pointer;
+}
+#myprogressBar{
+    width: 100vW;
+    cursor: pointer;
+}
+.songItem {
+    height:40px;
+    display: flex;
+    background-color: white;
+    color:black;
+    margin: 10px 0;
+    justify-content: space-between;
+    align-items: center;
+    border:2px solid wheat;
+}
+.songItem img{
+    width:40px;
+    
+}
+.timestamp{
+    margin: 0 15px;
+}
+.timestamp i{
+    cursor: pointer;
+}
+.songitemcontainer{
+    margin-top: 45px;
+}
+.songInfo{
+    position: absolute;
+    left:10vw;
+    font-size:18px;
+
+}
+.songList h1{
+   color:white;
+}
